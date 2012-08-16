@@ -7,7 +7,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("Maven + Hibernate + MySQL");
+        System.out.println("Maven + Hibernate + MySQL + prueba");
         Session session = HibernateUtil.getSessionFactory().openSession();
         
         session.beginTransaction();
